@@ -1,18 +1,25 @@
-# 📄 Resume Skill Extractor
+# Resume Skill Extractor 🧠
 
-A GUI-based application that extracts skills from resumes using NLP (spaCy) and keyword matching.
-
-## ✨ Features
-- Upload **PDF** or **DOCX** resume files
-- Extract skills using **NLP** and **keyword matching**
-- Display extracted skills in a clean list
-- Copy skills to clipboard with one click
+A simple, Dockerized, GUI-based Streamlit application that extracts **skills** from PDF and DOCX resumes using NLP and keyword matching.
 
 ---
 
-## 🚀 Local Setup
+## 🔍 Features
 
-1. **Install the required dependencies**  
-   (Make sure Python 3.11 is installed)
-   ```bash
-   pip install -r requirements.txt
+- Upload resume files (PDF/DOCX)
+- Extract skills using NLP (spaCy + regex matching)
+- Display a clean list of skills
+- Copy skills to clipboard ✅
+- Download extracted skills as a `.txt` file
+- Dockerized for easy deployment
+
+---
+
+## 🚀 How to Run
+
+### 🧪 Run Locally (Python)
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+
