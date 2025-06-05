@@ -23,3 +23,11 @@ A simple, Dockerized, GUI-based Streamlit application that extracts **skills** f
 pip install -r requirements.txt
 streamlit run app.py
 
+### 3. 🐳 Run by Cloning Repo
+
+```bash
+git clone https://github.com/DhanyaDeepika/resume-skill-extractor.git
+cd resume-skill-extractor
+pip install -r requirements.txt
+streamlit run app.py
+
